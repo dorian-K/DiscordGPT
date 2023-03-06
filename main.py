@@ -153,6 +153,7 @@ LAST_REQUEST = -999
 class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged on as', self.user)
+        await client.change_presence(activity=discord.Activity(type=discord.ActivityType.custom, name="@ me or ask me a question!"))
 
     async def on_message(self, message: discord.Message):
         global LAST_REQUEST
