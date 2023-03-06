@@ -80,7 +80,7 @@ async def get_reply(message: discord.Message):
             if msgBefore == None:
                 print("message before not in history")
                 break
-            if msgBefore.author.id != curMessage.author.id:
+            if msgBefore.author.id != curMessage.author.id and msgBefore.author != client.user:
                 print("author of message before does not match {} != {}".format(msgBefore.author.id, curMessage.author.id))
                 break
             curMessage = msgBefore
@@ -176,6 +176,6 @@ class MyClient(discord.Client):
 
 
 intents = discord.Intents.default()
-intents.message_content = True
+intents.message_content = True 
 client = MyClient(intents=intents)
 client.run(os.environ['DISCORD_TOKEN'])
