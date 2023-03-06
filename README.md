@@ -1,11 +1,15 @@
 # DiscordGPT
 
 ## How it works
-DiscordGPT is a Discord bot that connects to the OpenAI ChatGPT API. The bot is triggered when a message containing a question mark or an @ mention is sent.
+DiscordGPT is a Discord bot that connects to the OpenAI ChatGPT API. The bot is triggered when someone mentions it in chat (with @), or optionally when a question mark is contained in the message.
 
 Upon activation, the bot collects up to five previous messages from the chat history and sends them to the ChatGPT API to generate a response.
 
 To ensure the conversation stays respectful, the bot monitors both the input and output to the ChatGPT API for any inappropriate language.
+
+## Config
+
+You can find configuration parameters at the top of `main.py`
 
 ## Getting started
 
