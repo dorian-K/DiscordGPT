@@ -14,6 +14,8 @@ Remember to fill in your OpenAI and discord api tokens.
 
 ## Showcase
 
+<video src='asset/simple_multi_message.webm.mov' width=180 />
+
 ![Simple Multi-Message conversation](asset/simple_multi_message.webm.mov)
 
 ![Complex Multi-Message conversation](asset/complex_multi_message.webm.mov)
