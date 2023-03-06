@@ -14,6 +14,7 @@ Remember to fill in your OpenAI and discord api tokens.
 
 ## Showcase
 
-![Simple Multi-Message conversation](asset/simple_multi_message.webm.mp4)
 
-![Complex Multi-Message conversation](asset/complex_multi_message.webm.mp4)
+
+https://user-images.githubusercontent.com/62394594/223112050-0dca2692-44cf-4d53-a93a-48460c762f64.mp4
+
