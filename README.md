@@ -14,7 +14,9 @@ Remember to fill in your OpenAI and discord api tokens.
 
 ## Showcase
 
-
-
 https://user-images.githubusercontent.com/62394594/223112050-0dca2692-44cf-4d53-a93a-48460c762f64.mp4
+
+
+
+https://user-images.githubusercontent.com/62394594/223112313-c2c3ed7c-102b-4a37-a80a-91dac2f5cb1b.mp4
 
